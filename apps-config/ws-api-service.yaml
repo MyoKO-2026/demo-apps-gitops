@@ -16,8 +16,8 @@ spec:
         app: api-golang
     spec:
       containers:
-        - name: ws-api-service
-          image: repalce-image
+        - name: test-service
+          image: replace-image
           env:
             - name: PORT
               value: "8000"
