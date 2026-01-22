@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: demo-app-staging
+resources:
+  - ../../apps-config
+images:
+  - name: ws-api-service # Check 
+    newName: myoko2026/ws-api-service
+    newTag: dev-b66da9a
+  - name: gcr-cartservice
+    newName: gcr.io/cartservice
+    newTag: v0.8.0
