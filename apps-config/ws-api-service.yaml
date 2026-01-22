@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: ws-api-service
-          image: myoko2026/ws-api-service:dev-a49870d
+          image: repalce-image
           env:
             - name: PORT
               value: "8000"
@@ -59,3 +59,4 @@ spec:
       targetPort: 8000
 
 ---
+
