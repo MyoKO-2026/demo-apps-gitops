@@ -6,7 +6,7 @@ resources:
 images:
   - name: ws-api-service
     newName: myoko2026/ws-api-service
-    newTag: dev-5932cd8
+    newTag: dev-b66da9a
   - name: gcr-cartservice
     newName: gcr.io/cartservice
     newTag: v0.8.0
