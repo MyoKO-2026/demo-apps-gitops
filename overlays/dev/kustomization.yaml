@@ -3,14 +3,10 @@ kind: Kustomization
 namespace: online-boutique
 resources:
   - ../../apps-config
-
 images:
   - name: ws-api-service
     newName: gcr.io/google-sampl
-    newTag: v0.8.0
+    newTag: dev-5932cd8
   - name: gcr-cartservice
     newName: gcr.io/cartservice
     newTag: v0.8.0
-
-
-
