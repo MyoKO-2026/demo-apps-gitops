@@ -5,7 +5,7 @@ resources:
   - ../../apps-config
 images:
   - name: ws-api-service
-    newName: gcr.io/google-sampl
+    newName: myoko2026/ws-api-service
     newTag: dev-5932cd8
   - name: gcr-cartservice
     newName: gcr.io/cartservice
