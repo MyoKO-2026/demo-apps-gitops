@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: test-service
-          image: replace-image
+          image: ws-api-service #### CHECK
           env:
             - name: PORT
               value: "8000"
@@ -59,4 +59,5 @@ spec:
       targetPort: 8000
 
 ---
+
 
